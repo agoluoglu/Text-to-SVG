@@ -1,6 +1,6 @@
 # DL Spring 2026 — Text-to-SVG Generation
 
-NYU Tandon Deep Learning (CS-GY 9223 / ECE-GY 7123), Spring 2026  
+NYU Tandon Deep Learning (ECE-GY 7123), Spring 2026  
 Kaggle Competition: Text-to-SVG Generation from Natural Language Prompts
 
 ## Overview
@@ -25,12 +25,12 @@ pip install -r requirements.txt
 
 ### 2. Data
 Download `train.csv` and `test.csv` from the
-[Kaggle competition page](https://www.kaggle.com/...).  
+[Kaggle competition page](https://www.kaggle.com/competitions/dl-spring-2026-svg-generation/data).  
 Training data is also mirrored at:
 `https://huggingface.co/datasets/YOUR_HF_USERNAME/svg-train` (private)
 
 ### 3. Training
-Open `notebooks/02_training.ipynb` in Google Colab (T4 GPU recommended).  
+Open `notebooks/02_training.ipynb` in Google Colab (use T4 GPU).  
 Set your HuggingFace token in Colab secrets as `HF_TOKEN`.
 
 ### 4. Inference
