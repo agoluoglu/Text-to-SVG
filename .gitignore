@@ -219,3 +219,6 @@ data/*.parquet
 # Jupyter checkpoints
 .ipynb_checkpoints/
 __pycache__/
+
+# Mac stuff
+*.DS_Store
