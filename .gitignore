@@ -221,4 +221,4 @@ data/*.parquet
 __pycache__/
 
 # Mac stuff
-*.DS_Store
+.DS_Store
