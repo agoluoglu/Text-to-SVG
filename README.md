@@ -14,9 +14,11 @@ LoRA fine-tuning of Qwen2.5-3B-Instruct for text-to-SVG generation. Aggressive d
 ## Repository Structure
  
 ```
-├── 01_data_exploration.ipynb                # Data analysis + preprocessing pipeline
-├── 02_train_and_inference_ColabA100.ipynb   # Training + inference (Colab A100)
-├── 02-train-and-inference_kaggle.ipynb      # Training + inference (Kaggle T4)
+├── notebooks/
+│   ├── 01_data_exploration.ipynb              # Data analysis + preprocessing pipeline
+│   ├── 02_train_and_inference_ColabA100.ipynb # Training + inference (Colab A100)
+│   └── 02-train-and-inference_kaggle.ipynb    # Training + inference (Kaggle T4)
+├── requirements.txt
 └── README.md
 ```
  
